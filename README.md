@@ -5,7 +5,9 @@ By [Allison Parrish](http://www.decontextualize.com/)
 This is a script that reads in an Inform 7 source file from standard input and
 spits out a `.ulx` file on standard output. In order to function properly, it
 requires you to have the [Inform 7 IDE for macOS](http://inform7.com/download/)
-installed in the default location.
+installed in the default location. You may be able to use the code in the
+library to easily adapt the functionality for other platforms and purposes.
+
 
 Usage:
 
@@ -13,12 +15,13 @@ Usage:
     python -m ezi72ulx.build <source.ni >output.ulx
 ```
 
-You may be able to use the code in the library to easily adapt the
-functionality for other platforms and purposes.
-
 You can load the resulting `.ulx` up in any
 [Glulx](https://www.eblong.com/zarf/glulx/) interpreter of your choice,
 including [Quixe](https://github.com/erkyrath/quixe/).
+
+If there's a compilation error, the program exits with a non-zero return code
+and displays the error to `stderr`.
+
 
 ## How it works and why
 
