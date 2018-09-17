@@ -8,7 +8,6 @@ requires you to have the [Inform 7 IDE for macOS](http://inform7.com/download/)
 installed in the default location. You may be able to use the code in the
 library to easily adapt the functionality for other platforms and purposes.
 
-
 Usage:
 
 ```bash
@@ -22,6 +21,18 @@ including [Quixe](https://github.com/erkyrath/quixe/).
 If there's a compilation error, the program exits with a non-zero return code
 and displays the error to `stderr`.
 
+## Installation
+
+With `pip` right from GitHub:
+
+    pip install https://github.com/aparrish/ezi72ulx/archive/master.zip
+
+As noted above, if you want the `build` module to work as an executable, you'll
+need to be running macOS and have the Inform 7 IDE installed in the expected
+location (`/Applications/Inform.app`).
+
+The code makes use of one or two of Python 3.7+ features, so you'll need to be
+running that.
 
 ## How it works and why
 
